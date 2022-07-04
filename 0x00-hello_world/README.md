@@ -1,1 +1,1 @@
-this is a C hello world
+hello C
