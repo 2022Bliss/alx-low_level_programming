@@ -1,3 +1,0 @@
-gcc  -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c -o 0-main
-#include <main.c>
-#include <main.h>
