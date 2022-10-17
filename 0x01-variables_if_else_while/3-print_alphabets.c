@@ -1,26 +1,26 @@
+/*
+ * File: 3-print_alphabets.c
+ * Auth: Blessing
+ */
+
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Prints the alphabet in lowercase, and then in uppercase.
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char l;
+	char letter;
 
-	l = 'a';
-	while (l <= 'z')
-	{
-		putchar(l);
-		l++;
-	}
-	l = 'A';
-	while (l <= 'z')
-	{
-		putchar(l);
-		l++;
-	}
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
+
+	for (letter = 'A'; letter <= 'Z'; letter++)
+		putchar(letter);
+
 	putchar('\n');
+
 	return (0);
 }
